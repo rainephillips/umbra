@@ -37,6 +37,21 @@
     <Filter Include="Game\Source Files">
       <UniqueIdentifier>{9a1eabdd-a6b7-48fd-9eae-622a2c0dcd3c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Umbra\Header Files\Events">
+      <UniqueIdentifier>{9aa474eb-6cc2-42d3-bfb9-c08d3a1e8793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umbra\Header Files\Events\Inputs">
+      <UniqueIdentifier>{2700f335-80ff-47db-bc7b-74dd99802c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umbra\Source Files\Events">
+      <UniqueIdentifier>{df49e9c5-64c6-4c89-ab3d-fd91bdd607e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umbra\Source Files\Events\Inputs">
+      <UniqueIdentifier>{0e63c4b0-cc85-4e5a-8ae0-65e44de2e595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umbra\Header Files\Events\Inputs\InputModifiers">
+      <UniqueIdentifier>{0c51f3ca-3ee3-4742-afe8-092de85a68b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Umbra\Application.cpp">
@@ -44,9 +59,6 @@
     </ClCompile>
     <ClCompile Include="Umbra\GameInstance.cpp">
       <Filter>Umbra\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Umbra\Screen.cpp">
-      <Filter>Umbra\Header Files</Filter>
     </ClCompile>
     <ClCompile Include="Umbra\Levels\LevelManager.cpp">
       <Filter>Umbra\Source Files\Levels</Filter>
@@ -65,6 +77,24 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Screen.cpp">
+      <Filter>Umbra\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Events\Input\InputManager.cpp">
+      <Filter>Umbra\Source Files\Events\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Events\Input\InputAction.cpp">
+      <Filter>Umbra\Source Files\Events\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Events\Input\InputModifier.cpp">
+      <Filter>Umbra\Source Files\Events\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Events\Input\InputMappingContext.cpp">
+      <Filter>Umbra\Source Files\Events\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Events\Input\Input.cpp">
+      <Filter>Umbra\Source Files\Events\Inputs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +121,21 @@
     </ClInclude>
     <ClInclude Include="Umbra\Actors\ActorWorld.h">
       <Filter>Umbra\Header Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Events\Input\InputManager.h">
+      <Filter>Umbra\Header Files\Events\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Events\Input\InputAction.h">
+      <Filter>Umbra\Header Files\Events\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Events\Input\InputModifier.h">
+      <Filter>Umbra\Header Files\Events\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Events\Input\InputMappingContext.h">
+      <Filter>Umbra\Header Files\Events\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Events\Input\Input.h">
+      <Filter>Umbra\Header Files\Events\Inputs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
